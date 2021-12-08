@@ -1,0 +1,33 @@
+.header{
+    background-color: var(--color-olive);
+    margin-bottom: 10px;
+}
+
+.header__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__legend-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.header__icon{
+    border-radius: 5px;
+    background-color: var(--color-oliveSage);
+}
+
+.header__label{
+    color: var(--color-white);
+    margin: 10px;
+    transition: all .3s ease;
+}
+
+.header__label:hover{
+    color: var(--color-oliveGray);
+    margin: 10px;
+}
