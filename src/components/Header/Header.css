@@ -1,12 +1,19 @@
 .header{
     background-color: var(--color-olive);
     margin-bottom: 10px;
+    box-shadow: 0px 1px 5px 0px black;
 }
 
 .header__inner{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header__side{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .header__legend-link{
@@ -28,6 +35,28 @@
 }
 
 .header__label:hover{
-    color: var(--color-oliveGray);
+    color: var(--color-pewter)  ;
     margin: 10px;
+}
+
+.header__search-field{
+    margin: 0 20px;
+    font-size: 1em;
+    background-color: rgba(255, 255, 255, .5);
+    border: none;
+    border-radius: 25px;
+    padding: 7px 12px;
+    outline: none;
+    cursor: text;
+    width: 100px;
+    transition: all .2s ease;
+}
+
+.header__search-field:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.header__search-field:focus{
+    background-color: rgba(255, 255, 255, 1);
+    width: 160px;
 }

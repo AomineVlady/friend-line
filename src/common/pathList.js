@@ -3,6 +3,7 @@ const PATH_LIST = {
     profile: "/profile",
     message: "/message",
     news: "/news",
+    friends: "/friends",
 };
 
 export default PATH_LIST;

@@ -12,6 +12,9 @@
     background-color: none;
     padding: 10px 5px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
     transition: all .2s ease;
 }
@@ -19,4 +22,8 @@
 .sidebar__nav__link:hover{
     text-decoration: none;
     background-color: var(--color-oliveHover);
+}
+
+.sidebar__nav__link svg{
+    margin-right: 20px;
 }
