@@ -13,7 +13,7 @@ const Profile = () => {
             <Grid container spacing={2}>
                 <Grid item xs={4}>
                     <div className="profile__avatar">
-                        <img src="http://placehold.it/200x300" alt="avatar of user" />
+                        <img src="https://www.film.ru/sites/default/files/people/1457261-886735.jpg" alt="avatar of user" className="profile__avatar-picture"/>
                     </div>
                 </Grid>
 
@@ -21,7 +21,7 @@ const Profile = () => {
                     <Paper elevation={3}>
                         <div className="profile__information">
                             <div className="profile__information__header">
-                                <h2 className="profile__name">Surname Name</h2>
+                                <h2 className="profile__name">Иван Ургант</h2>
                                 <Tooltip title="Settings" size="small">
                                     <IconButton aria-label="Settings">
                                         <TuneIcon color="inherit" fontSize="small" />

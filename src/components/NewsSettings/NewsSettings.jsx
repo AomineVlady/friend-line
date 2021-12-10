@@ -23,7 +23,6 @@ const NewsSettings = () => {
                 value={value}
                 onChange={handleChange}
                 indicatorColor="primary"
-                textColor="inherit"
                 centered
             >
                 <Tab className={classes.tab} label="Новости" />

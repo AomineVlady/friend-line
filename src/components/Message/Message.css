@@ -1,0 +1,19 @@
+.message__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+}
+
+.message__side{
+    display: inherit;
+    align-items: inherit;
+    justify-content: center;
+}
+
+.message__search-field{
+    margin-left: 10px;
+    border:none;
+    padding: 0 0 2px;
+    border-bottom: 1px solid var(--color-pewter);
+}

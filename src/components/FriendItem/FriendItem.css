@@ -1,0 +1,70 @@
+.friend__item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 15px 5px;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--color-sageGreen);
+}
+
+.friend__item-avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 25px;
+}
+
+.friend__item-description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.friend__item-name{
+    font-size: 1em;
+    margin: 0px 0;
+}
+
+.friend__item-name{
+    font-size: 1em;
+    text-decoration: none;
+    color: var(--color-oliveGray);
+    margin: 0px 0;
+    transition: all .2s ease;
+}
+
+.friend__item-name:hover{
+    color: var(--color-olive);
+}
+
+.friend__item-online{
+    font-size: 0.8em;
+    color: inherit;
+    opacity: .7;
+    margin: 5px 0 10px;
+}
+
+.friend_item__message-button{
+    font-size: 0.8em;
+    background: none;
+    border:none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .7;
+    transition: all .2s ease;
+}
+.friend_item__message-button:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.friend__item__settings-button{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}

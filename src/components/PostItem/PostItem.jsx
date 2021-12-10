@@ -5,7 +5,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import CommentIcon from '@material-ui/icons/Comment';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
-const PostItem = () => {
+const PostItem = ({ text, picture }) => {
     const [anchorEl, setAnchorEl] = useState(null);
     const open = Boolean(anchorEl);
 
@@ -21,7 +21,7 @@ const PostItem = () => {
             <div className="news__post">
                 <div className="news__post__header">
                     <div className="news__post__creator">
-                        <Avatar src="http://placehold.it/50x50" alt="post creator" />
+                    <Avatar src="https://avatars.mds.yandex.net/get-kinopoisk-image/1777765/eb718db5-920f-45c9-9e80-dfa6acbbfa36/280x420" alt="post creator" className="message__chat-avatar" width="50px"/>
                         <span className="news__post__creator-name">Иван Ургант</span>
                     </div>
 
@@ -47,7 +47,10 @@ const PostItem = () => {
                     </div>
                 </div>
                 <div className="news__post__body">
-                    <img src="http://placehold.it/200x150" alt="post img" />
+                    {picture?.length ?
+                        <img src={picture} alt="post img" width="400px" className="new__post-image" />
+                        : <img src={"http://placehold.it/800x150"} alt="post img" width="400px" className="new__post-image" />}
+                    {text?.length ? <p className="new__post-text">{text}</p> : null}
                 </div>
                 <div className="news__post__footer">
                     <button className="news__post__like button__post-uses"><FavoriteBorderIcon color="disabled" fontSize="small" /></button>
