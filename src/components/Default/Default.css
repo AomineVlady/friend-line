@@ -1,0 +1,45 @@
+.log-in{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px 10px;
+}
+
+.log-in__name{
+    margin: 10px 10px 15px;
+}
+
+.form{
+    padding: 15px 15px 5px;
+    margin: 0px 0 20px;
+}
+
+.log-in__registration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.log-in__login{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.log-in__desc{
+    margin: 10px 0;
+}
+.log-in__registration-fields{
+    margin: 20px 0 10px 0;
+}
+
+.log-in__field{
+    margin: 10px 5px;
+}
+
+.log-in__login-button{
+    margin: 20px auto;
+}

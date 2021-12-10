@@ -1,11 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./LogInButton.css";
+import PATH_LIST from "../../common/pathList"
 
 const LogInButton = () =>{
     return(
-        <button className="login__button">
+        <Link to={PATH_LIST.default} className="login__button">
             Войти
-        </button>
+        </Link>
     )
 }
 
